@@ -4,7 +4,7 @@ A set of utilities for the python modules, [threading](https://docs.python.org/3
 
 ## Example Usage
 
-For a more detailed look at the executors (passing args,kwargs,and more) take a look at the [thread_executor]() or [multiprocessing_executor]() documentation.
+For a more detailed look at the executors (passing args,kwargs,and more) take a look at the [thread_executor](https://github.com/acidicly/combustive/blob/main/docs/threading_executor.md) or [multiprocessing_executor](https://github.com/acidicly/combustive/blob/main/docs/multiprocessing_executor.md) documentation.
 
 ### Threading
 ```python
@@ -36,7 +36,7 @@ test.terminate() # Terminate the process
 
 ### Background Loop
 
-Check the [documentation]() of the background loop for a more detailed look at it and its arguments.
+Check the [documentation](https://github.com/acidicly/combustive/blob/main/docs/loop.md) of the background loop for a more detailed look at it and its arguments.
 
 ```python
 import time
