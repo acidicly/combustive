@@ -6,6 +6,9 @@ build:
   tools:
     python: "3.8"
 
-sphinx:
-  configuration: docs/conf.py
-  builder: html
+python:
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
